@@ -12,7 +12,7 @@ import Footer from "./component/footer";
 function App() {
   return (
     <>
-      <div className="header-background">
+      <div className="header-background  ">
         <Navbar />
         <Textform />
       </div>
