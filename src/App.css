@@ -32,7 +32,315 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.card {
+  /* margin-top: 80px;
+  margin-left: 80px; */
+  background-color: rgba(221, 223, 218, 0.663);
+}
+
+.logo {
+  height: 10px;
+}
+
+.navbar-logo {
+  height: 29px;
+  width: 49px;
+}
+
+.Navtext {
+  color: white;
+  margin-left: 5.5px;
+  text-decoration: wavy;
+}
+
+.Navtext b {
+  font-family: monospace;
+}
+
+.vismay {
+  margin-top: 144px;
+  margin-left: 150px;
+  color: #fcfcfc;
+}
+
+.spandan {
+  color: #fcfcfc;
+  font-size: 60px;
+  margin: 0;
+  margin-bottom: 20px;
+  line-height: 70px;
+  text-align: left;
+  display: block;
+  font-weight: 700;
+  max-width: 36%;
+  text-transform: uppercase;
+}
+
+.sagar {
+  background-color: hwb(51 15% 1% / 0.675);
+  margin-left: 41px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 20px;
+}
+
+/* .cont {
+  margin-left: 750px;
+  margin-top: -430px;
+} */
+
+.row {
+  margin-right: calc(0 * var(--bs-gutter-x));
+  margin-left: calc(0 * var(--bs-gutter-x));
+}
+
+.header-background {
+  min-height: 100vh;
+  background-color: #939393;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url(../src/Asset/11.jpg);
+  position: relative;
+}
+
+.home-banner-text {
+  position: absolute;
+  top: 44%;
+  right: 9%;
+  color: white;
+}
+
+.col {
+  margin-left: -35px;
+  margin-top: -54px;
+}
+
+.card-img-top {
+  height: 270px;
+}
+
+.cup {
+  text-align: center;
+  margin-top: 32px;
+  font-style: oblique;
+  font-family: cursive;
+}
+
+/* .row {
+  margin-top: -15px;
+} */
+
+.Dee {
+  height: 40px;
+  width: 49px;
+  margin-left: 12px;
+}
+
+.ap {
+  margin-right: 15px;
+}
+
+.btn {
+  background-color: #ff9e03;
+  color: white;
+  border-radius: 100%;
+}
+
+.btn:hover {
+  background-color: #0488ad;
+}
+
+.btna {
+  color: #fcfcfc;
+  background-color: #6007ef;
+  border-radius: 10px;
+  border-color: black;
+}
+
+.card-img-top {
+  height: 270px;
+}
+
+.Api {
+  text-align: center;
+  margin-top: 58px;
+  font-family: cursive;
+}
+
+.bitu {
+  color: red;
+}
+
+.sum {
+  text-align: center;
+  margin-top: 56px;
+  font-family: cursive;
+}
+
+.ravi {
+  color: rgb(138, 9, 9);
+}
+
+.jai {
+  margin-top: 34px;
+}
+
+.viru {
+  margin-top: 21px;
+}
+
+.pig {
+  background-color: lightgray;
+}
+
+.form-control:hover {
+  border-color: rgb(6, 6, 6);
+}
+
+.vir {
+  width: 683px;
+  margin-top: 21px;
+}
+
+.btns {
+  margin-top: 16px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+.img-fluid {
+  /* margin-left: 5px; */
+  margin-top: 39px;
+}
+.Mig {
+  width: 100%;
+  padding: 100px;
+  padding-top: 17px;
+  padding-bottom: 0px;
+  height: 41vh;
+}
+.pikku {
+  font-size: 26px;
+  font-family: math;
+  color: lightslategrey;
+}
+.thor {
+  margin-left: 54px;
+  margin-top: -23px;
+}
+.hulk {
+  background-color: rgb(245 239 239);
+}
+.megha {
+  margin-top: 7px;
+}
+.van {
+  text-align: center;
+  color: rgb(245 239 239);
+}
+.iron {
+  margin-left: 28px;
+  margin-top: -14px;
+}
+.irony {
+  margin-top: -24px;
+  margin-left: 31px;
+}
+.kedar {
+  margin-top: 8px;
+  margin-left: -2px;
+}
+.bru {
+  font-weight: bolder;
+  font-size: larger;
+}
+.pet {
+  margin-left: -9px;
+  margin-top: -13px;
+}
+.aman {
+  color: #fcfcfc;
+  background-color: #282c34;
+  margin-top: 71px;
+}
+.tan {
+  background-color: #282c34;
+}
+.sag img {
+  margin-top: 22px;
+  padding: 42px;
+  width: 99%;
+}
+.cont {
+  margin-top: 99px;
+}
+.polo {
+  margin-left: 155px;
+}
+.polo:hover {
+  background-color: #76787b;
+}
+.polo:active {
+  color: #e0f6f6;
+}
+.cap {
+  text-align: center;
+  font-family: cursive;
+  margin-top: 52px;
+}
+.ink {
+  margin-top: -85px;
+}
+.india {
+  margin-top: -48px;
+}
+.rom {
+  color: rgb(138, 9, 9);
+}
+.ram {
+  font-family: inherit;
+}
+
+.fixed-topbar {
+  position: fixed;
+  top: 0;
+  background: rgb(224, 199, 199) !important;
+  width: 100%;
+  z-index: 9999;
+}
+.pix {
+  height: 395px;
+  margin-left: 68px;
+  margin-top: 17px;
+}
+
+@media (max-width: 568px) {
+  .home-banner-text {
+    top: 25%;
+    padding-left: 3rem !important;
+  }
+  .header-background {
+    background-position-x: -100px;
+  }
+  .ram{
+    margin-top: -139px;
+  }
+  .cup{
+    margin-top: 72px;
+  }
+  .sagar{
+    margin-left:14px;
+  }
+  .polo{
+    margin-left: 246px;
+    margin-top: -7px;
   }
 }
